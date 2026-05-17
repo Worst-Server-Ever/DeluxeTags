@@ -18,13 +18,14 @@ repositories {
 
     maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
     maven("https://repo.extendedclip.com/releases/")
+    maven("https://jitpack.io")
 }
 
 dependencies {
     compileOnly("org.spigotmc:spigot-api:1.21.9-R0.1-SNAPSHOT")
     compileOnly("me.clip:placeholderapi:2.11.6")
 
-    implementation("com.github.cryptomorin:XSeries:13.4.0")
+    implementation("com.github.cryptomorin:XSeries:master-SNAPSHOT")
 }
 
 tasks {
